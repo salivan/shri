@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	  <link rel="stylesheet" type="text/css" href="style.css">
+ 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	  <title>Info</title>
+	  <script>
+			 $(document).ready(function(){
+			 
+			   $(".block").hover(
+			  function () {
+			    $(this).removeClass("block_state_close");
+			    $(this).addClass("block_state_open");
+			  }, 
+			  function () {
+			    $(this).removeClass("block_state_open");
+			    $(this).addClass("block_state_close");
+			  });
+
+			    });
+ 	  </script>
+ 
+ </head>
+ 
+ <body>
+ 	<div class="wrapper">
+ 		
+ 		<div class="block block_num_1 block_state_close">
+ 			
+				<div class="block_open"><p>Опыт разработки</p></div>
+	 			
+	 			<div class="block_close">
+	 				<ul>
+			 			<li>Верстка домашних страниц</li>
+			 			<li>HTML, CSS, JQwery</li>
+			 			<li>Notepad++,Sublime Text2,WebStorm</li>
+			 			<li>ОС: MS Windows,MacOS,Linux</li>
+			 			<li>Начальный уровень работы с git</li>
+			 			<li>Систему постановки и ведения задач не использую.</li>
+			 			<li>Полезные для фронтенд-разработчика ресурсы:
+			 			<a href="http://api.jquery.com/">jQuery API</a>,
+			 			<a href="http://htmlbook.ru/">Htmlbook</a></li>
+			 			<li>Место работы: "Яндекс.Украина", офис-менеджер</li>
+			 		</ul>
+			 	</div>
+		 	
+ 		</div>
+
+  		<div class="block block_num_2 block_state_close">
+  
+	  			<div class="block_open">Общие вопросы</div>
+				<div class="block_close">
+					<ul>
+			 			<li>Позднышева Екатерина Владимировна</li>
+			 			<li>1989г.</li>
+			 			<li>г.Симферополь</li>
+			 			<li>ТНУ,факультет математики и информатики, математика, кафедра дифференциальных уравнений и геометрии</li>
+			 			<li>Год окончания вуза: 2011г.</li>
+			 			<li>Получение знаний</li>
+			 			<li>Анонс в СМИ</li>
+			 			<li>Обучение 5-6 часов в день</li>
+			 		</ul>	
+	 			</div>
+ 		
+ 		</div>
+
+
+ 		<div class="block block_num_3 block_state_close">
+ 		
+	 			<div class="block_open">Контакты</div>
+	 			<div class="block_close">
+	 				<p>Тел.: (067) 500-14-65<br>
+					E-mail: <a class="mail" href="mailto:rina.salivan@yandex.ru">rina.salivan@yandex.ru</a><p>
+	 			</div>
+ 		
+ 		</div>
+
+ 	</div>
+ </body>
+</html>
